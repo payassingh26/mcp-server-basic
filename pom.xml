@@ -30,6 +30,7 @@
 		<java.version>21</java.version>
 		<spring-ai.version>1.0.1</spring-ai.version>
 	</properties>
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -60,7 +61,11 @@
 			<groupId>org.springframework.ai</groupId>
 			<artifactId>spring-ai-starter-mcp-server</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>de.grundid.opendatalab</groupId>
+			<artifactId>geojson-jackson</artifactId>
+			<version>1.14</version>
+		</dependency>
 	</dependencies>
 
 	<build>
